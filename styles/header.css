@@ -1,0 +1,125 @@
+.hamburguer__menu-epiphar {
+    width: 36px;
+    height: 24px;
+    background-image: url("../images/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.epiphar {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image__container {
+    padding: 1em;
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.buttom__container:checked~.menu-list {
+    display: block;
+    animation: to-charge 0.8s;
+}
+
+.menu-list__title,
+.menu-list__item {
+    padding: 1em;
+    background-color: var(--white);
+}
+
+.menu-list__title {
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.menu-list__link {
+    background: var(--gradient--blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.buttom__container {
+    display: none;
+}
+
+.title__container {
+    display: none;
+}
+
+.options {
+    display: none;
+}
+
+@keyframes to-charge {
+    0% {
+        opacity: 0%;
+        transform: translateX(-300px);
+    } 100% {
+        opacity: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title__container, .black__title--container {
+        font-family: var(--second-font);
+        font-size: 30px;
+    }
+
+    .title__container {
+        font-weight: 400;
+        display: block;
+    }
+
+    .black__title--container {
+        font-weight: 700;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    .items-options {
+        text-transform: uppercase;
+        padding: 0 1em;
+    }
+
+    .link__options {
+        color: var(--black);
+        text-decoration: none;
+    }
+
+    .favorit {
+        display: none;
+    }
+
+    .hamburguer__menu-epiphar {
+        display: none;
+    }
+
+    .options-buttom:checked~.menu-list {
+        display: block;
+        width: auto;
+    }
+
+    .options-buttom {
+        display: none;
+    }
+
+}

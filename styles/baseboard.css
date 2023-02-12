@@ -1,0 +1,8 @@
+hr {
+    margin: 0;
+}
+
+.baseboard {
+    background: var(--white);
+    padding: 1em;
+}

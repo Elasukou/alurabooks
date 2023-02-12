@@ -1,0 +1,73 @@
+.title__carousel {
+    color: var(--orange);
+    background-color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card__description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.buttons__card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+}
+
+.card {
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.title__description {
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.title__description-card {
+    color: var(--blue);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.text__description {
+    font-size: 14px;
+}
+
+.item__buttons {
+    margin: 0 0.5em;
+}
+
+.anchor__button {
+    background-color: var(--orange);
+    padding: 1em 2.2em;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+}

@@ -1,0 +1,36 @@
+.contat {
+    background-color: var(--white);
+    padding: 1em;
+}
+
+.title__contat, .text__contat {
+    background: var(--gradient--blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.title__contat {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text__contat {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.email__contat {
+    padding: 1em;
+    border: 1px solid var(--blue);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--blue);
+}
+
+.email__contat::placeholder {
+    font-family: var(--default--font);
+    color: var(--blue);
+    background: url("../images/email.svg")no-repeat;
+    padding-left: 2em;
+}

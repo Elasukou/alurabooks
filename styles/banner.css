@@ -1,0 +1,34 @@
+.banner {
+    background: var(--gradient--blue);
+    color: var(--white);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.title__banner {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text__banner {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.search__banner {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+
+}
+
+.search__banner::placeholder {
+    font: normal 400 14px var(--default--font);
+    text-align: center;
+    color: var(--white);
+    background: url("../images/Search.svg") no-repeat;
+    background-position: 1em;
+}
