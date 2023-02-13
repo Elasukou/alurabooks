@@ -34,3 +34,26 @@
     background: url("../images/email.svg")no-repeat;
     padding-left: 2em;
 }
+
+@media screen and (min-width: 1024px) {
+    .contat {
+        display: flex;
+    }
+
+    .description__contat {
+        flex-direction: column;
+        margin-left: 15%;
+        padding: 2em;
+        width: 30%;
+    }
+
+    .title__contat {
+        font-size: 24px;
+    }
+
+    .email__contat {
+        width: 30%;
+        height: 0%;
+        margin-top: 5%;
+    }
+}

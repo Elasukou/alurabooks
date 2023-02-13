@@ -71,3 +71,41 @@
     color: var(--white);
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+    .title__carousel {
+        font-size: 26px;
+        padding: 2em 0 0.5em 0;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        background-color: var(--blue);
+        border-radius: 100px;
+        color: var(--white);
+        padding: 0.5em;
+        width: 44px;
+        margin-top: 5%;
+    }
+
+    .swiper-button-next::after {
+        margin-left: 12px;
+    }
+
+    .swiper-button-prev::after {
+        margin-left: 8px;
+    }
+
+    .card {
+        width: 40%;
+        margin: 5vw auto 5vw auto;
+    }
+}

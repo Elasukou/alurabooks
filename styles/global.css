@@ -16,6 +16,8 @@
     --default--font: "Poppins";
     --black: #000000;
     --second-font: "Josefin Sans";
+    --grey: #858585;
+    --blackGrey: #474646;
 }
 
 body {

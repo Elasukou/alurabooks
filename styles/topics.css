@@ -6,7 +6,7 @@
 
 .topics__titles {
     color: var(--white);
-    font-weigth: 300;
+    font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 1em;
 }
@@ -28,4 +28,14 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .topics__titles {
+        font-size: 24px;
+    }
+
+    .link__topics {
+        font-size: 24px;
+    }
 }

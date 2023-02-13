@@ -32,3 +32,13 @@
     background: url("../images/Search.svg") no-repeat;
     background-position: 1em;
 }
+
+@media screen and (min-width: 1024px) {
+    .title__banner {
+        font-size: 36px;
+    }
+
+    .search__banner {
+        width: 50%;
+    }
+}
