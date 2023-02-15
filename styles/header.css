@@ -68,6 +68,10 @@
     display: none;
 }
 
+.text__container {
+    display: none;
+}
+
 @keyframes to-charge {
     0% {
         opacity: 0%;
@@ -124,4 +128,25 @@
         display: none;
     }
 
+}
+
+@media screen and (min-width: 1536px) {
+    .link__container {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .container {
+        padding: 0 2em;
+    }
+
+    .options {
+         margin-right: auto;
+    }
+
+    .text__container {
+        display: block;
+    }
 }
