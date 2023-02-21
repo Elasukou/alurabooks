@@ -48,3 +48,14 @@ hr {
         padding-top: 1em;
     }
 }
+
+@media screen and (min-width: 1535px) {
+    .baseboard-list {
+        border-left: 1px solid var(--grey);
+        padding-left: 3em;
+    }
+
+    .baseboard {
+        padding: 3em 7em;
+    }
+}

@@ -109,3 +109,40 @@
         margin: 5vw auto 5vw auto;
     }
 }
+
+@media screen and (min-width: 1535px) {
+    .carousel__container {
+        display: flex;
+        margin: 0 10vw 3em 10vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .title__carousel {
+        padding: 0.5em 0;
+    }
+
+    .title__description {
+        font-size:  32px;
+    }
+
+    .text__description {
+        font-size: 16px;
+    }
+
+    .description {
+        margin-right: 1em;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
+}
