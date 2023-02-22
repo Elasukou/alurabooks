@@ -34,7 +34,6 @@
 
 .buttom__container:checked~.menu-list {
     display: block;
-    animation: to-charge 0.8s;
 }
 
 .menu-list__title,
@@ -72,13 +71,22 @@
     display: none;
 }
 
-@keyframes to-charge {
-    0% {
-        opacity: 0%;
-        transform: translateX(-300px);
-    } 100% {
-        opacity: 100%;
-    }
+.buttom__container:checked ~ .container__label > .hamburguer__menu-epiphar {
+    background-image: url("../images/Menu\ Aberto.svg");
+}
+
+.buttom__container:checked~.container__label {
+    background: var(--gradient--blue);
+    padding-top: 0.5em;
+}
+
+.menu-list__item:hover {
+    background: var(--gradient--blue);
+}
+
+.menu-list__item:hover > .menu-list__link {
+    -webkit-text-fill-color: var(--white);
+    text-decoration: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -126,6 +134,15 @@
 
     .options-buttom {
         display: none;
+    }
+
+    .options-buttom:checked~.options__label>.items-options {
+        background: var(--gradient--blue);
+        color: var(--white);
+    }
+
+    .items-options {
+        padding: 2em 1em;
     }
 
 }
